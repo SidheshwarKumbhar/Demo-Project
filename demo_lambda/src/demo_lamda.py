@@ -6,9 +6,10 @@ def lambda_handler(event):
         try:
             name = event['Name']
             number = event['Number']
+            return connecting_dynamodb(name, number)
         except KeyError as k:
             raise KeyError("Error While Connecting to Dynamo DB")
-        return connecting_dynamodb(name, number)
+
 
 # Connecting to DynamoDB
 def connecting_dynamodb(name, number):
@@ -26,6 +27,3 @@ def connecting_dynamodb(name, number):
 
     except Exception as e:
         raise Exception("Error While Connecting to Dynamo DB")
-
-
-
