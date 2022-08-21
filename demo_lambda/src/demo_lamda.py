@@ -1,8 +1,9 @@
 """"--------------------------------------------------------------------------------------------------------
+Name: Siddeshwar Pandit Kumbhar.
 * The purpose of this demo project is to create lambda function which will get tigger by event pyload
 to establish the connection with DynamoDb.
 
-*To achieve the goal of the demo project we will follow the following steps:
+* To achieve the goal of the demo project we will follow the following steps:
     1. Create a function which will connect to the AWS Dynamodb database.
     2. Write the lambda handler which will trigger by the event payload to establish connection with DynamoDB.
     3. Create the test cases for the lambda for the successful and failure scenario.
