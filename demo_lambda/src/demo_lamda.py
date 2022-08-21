@@ -1,5 +1,5 @@
 """"--------------------------------------------------------------------------------------------------------
-Name: Siddeshwar Pandit Kumbhar.
+
 * The purpose of this demo project is to create lambda function which will get tigger by event pyload
 to establish the connection with DynamoDb.
 
