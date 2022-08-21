@@ -1,7 +1,13 @@
+""""---------------------------------------------------------------------------------------------------------------
+The third step of demo project, Create the test cases for the lambda for the successful and failure scenario.
+
+-------------------------------------------------------------------------------------------------------------------"""
+
 import unittest
-from unittest import mock
+from unittest import mock   # mock allow you to substitute and imitates the value of function with some dummy value.
 from demo_lambda.src.demo_lamda import *
 
+# Create logger, set level and add FileHandler and file format.
 logger = logging.getLogger("test_lambda")
 logger.setLevel(logging.INFO)
 file_handler = logging.FileHandler("test_lamda.log", mode='w')
@@ -11,9 +17,10 @@ logger.addHandler(file_handler)
 
 logger.info("log for test_lambda started..")
 
+
 # Test Class
 class TestDemoLambda(unittest.TestCase):
-    # Setup
+    # Setting up the values for event
     def setUp(self):
         self.event = {
             'Name': "sid",

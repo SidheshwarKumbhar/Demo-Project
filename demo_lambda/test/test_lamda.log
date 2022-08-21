@@ -1,0 +1,5 @@
+2022-08-21 15:31:17,999:test_lambda:INFO:log for test_lambda started..
+2022-08-21 15:31:17,999:test_lambda:INFO:Values for event is set up
+2022-08-21 15:31:17,999:test_lambda:INFO:test case for the successful run completed.
+2022-08-21 15:31:17,999:test_lambda:INFO:test case for Unsuccessful run completed
+2022-08-21 15:31:17,999:test_lambda:INFO:Values of event is tear Down
