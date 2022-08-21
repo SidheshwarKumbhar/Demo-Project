@@ -1,7 +1,7 @@
-2022-08-21 15:31:17,999:demo_lambda:INFO:log for demo_lambda started..
-2022-08-21 15:31:17,999:demo_lambda:INFO:lambda is triggerd by event sid
-2022-08-21 15:31:17,999:demo_lambda:INFO:lambda is triggerd by event 1234567890
-2022-08-21 15:31:17,999:demo_lambda:INFO:Connecting with DynamoDB
-2022-08-21 15:31:17,999:demo_lambda:INFO:lambda is triggerd by event sid
-2022-08-21 15:31:17,999:demo_lambda:INFO:lambda is triggerd by event 1234567890
-2022-08-21 15:31:17,999:demo_lambda:INFO:Connecting with DynamoDB
+2022-08-21 17:21:58,581:demo_lambda:INFO:log for demo_lambda started..
+2022-08-21 17:21:58,597:demo_lambda:INFO:lambda is triggerd by event sid
+2022-08-21 17:21:58,597:demo_lambda:INFO:lambda is triggerd by event 1234567890
+2022-08-21 17:21:58,597:demo_lambda:INFO:Connecting with DynamoDB
+2022-08-21 17:21:58,598:demo_lambda:INFO:lambda is triggerd by event sid
+2022-08-21 17:21:58,598:demo_lambda:INFO:lambda is triggerd by event 1234567890
+2022-08-21 17:21:58,598:demo_lambda:INFO:Connecting with DynamoDB
